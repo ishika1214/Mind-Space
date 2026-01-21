@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Mind-Space/sw.js', { scope: '/Mind-Space/' })})}
